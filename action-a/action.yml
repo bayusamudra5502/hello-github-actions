@@ -3,7 +3,7 @@ description: "Halo Dunia"
 author: "bayusamudra.55.02.com@gmail.com"
 
 inputs:
-  BAYU:
+  NAMA:
     description: "Halo Bayu"
     require: true
     default: "World"
