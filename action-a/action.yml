@@ -1,0 +1,17 @@
+name: "Hello Action"
+description: "Halo Dunia"
+author: "bayusamudra.55.02.com@gmail.com"
+
+inputs:
+  BAYU:
+    description: "Halo Bayu"
+    require: true
+    default: "World"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "mic"
+  color: "purple"
